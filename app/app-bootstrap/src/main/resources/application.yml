@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/simple_frame_use_demo
+    username: root
+    password: 123456

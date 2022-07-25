@@ -1,6 +1,6 @@
-package annotation;
+package cn.carol.demo.annotation;
 
-import enums.SqlOperateEnum;
+import cn.carol.demo.enums.SqlOperateEnum;
 
 import java.lang.annotation.*;
 
@@ -23,5 +23,11 @@ public @interface SqlLog {
      * @return 操作类bean name
      */
     String operateService();
+
+    /**
+     *
+     * @return 记录日志bean name
+     */
+    String logService();
 
 }

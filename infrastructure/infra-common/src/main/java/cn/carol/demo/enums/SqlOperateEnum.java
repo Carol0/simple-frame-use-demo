@@ -1,4 +1,4 @@
-package enums;
+package cn.carol.demo.enums;
 
 /**
  * @author gaoxiaolin

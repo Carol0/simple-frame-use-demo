@@ -3,16 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>cn.carol.demo</groupId>
+        <artifactId>simple-frame-use-demo-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <groupId>cn.carol.demo</groupId>
-    <artifactId>bootstrap</artifactId>
+    <artifactId>app-bootstrap</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bootstrap</name>
-    <description>bootstrap</description>
+    <name>app-bootstrap</name>
+    <description>app-bootstrap</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -30,6 +28,22 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.7</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.carol.demo</groupId>
+            <artifactId>app-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>2.0.7</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
