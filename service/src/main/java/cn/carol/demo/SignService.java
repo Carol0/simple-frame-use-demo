@@ -11,8 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 1.0.0
  */
 public interface SignService extends IService<Sign> {
-    String beanName = "signServiceImpl";
-    String logBeanName = "signOperatorLogServiceImpl";
-    @SqlLog(operate = SqlOperateEnum.UPDATE, operateService = beanName, logService = logBeanName)
+
     boolean updateById(Sign sign);
 }
